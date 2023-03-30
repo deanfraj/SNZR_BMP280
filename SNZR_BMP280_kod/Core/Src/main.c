@@ -135,7 +135,7 @@ int main(void)
 	  		HAL_Delay(2000);
 	  		}
 
-	  		size = sprintf((char *)Data,"Temperatura: %.2f C\r\n", temperature);
+	  		size = sprintf((char *)Data,"Temperatura: %.2f C\r", temperature);
 	  		HAL_UART_Transmit(&huart2, Data, size, 1000);
 
 	  		/*if (bme280p) {
