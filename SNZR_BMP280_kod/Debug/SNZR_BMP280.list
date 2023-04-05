@@ -3220,8 +3220,8 @@ int main(void)
 	  			size = sprintf((char *)Data, "\n");
 	  			HAL_UART_Transmit(&huart2, Data, size, 1000);
 	  		}*/
-	  		HAL_Delay(2000);
- 8001e66:	f44f 60fa 	mov.w	r0, #2000	; 0x7d0
+	  		HAL_Delay(500);
+ 8001e66:	f44f 70fa 	mov.w	r0, #500	; 0x1f4
  8001e6a:	f000 fabd 	bl	80023e8 <HAL_Delay>
 	  HAL_Delay(100);
  8001e6e:	e7bf      	b.n	8001df0 <main+0xa8>

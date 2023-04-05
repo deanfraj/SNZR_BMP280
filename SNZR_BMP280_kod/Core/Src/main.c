@@ -146,7 +146,7 @@ int main(void)
 	  			size = sprintf((char *)Data, "\n");
 	  			HAL_UART_Transmit(&huart2, Data, size, 1000);
 	  		}*/
-	  		HAL_Delay(2000);
+	  		HAL_Delay(500);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
