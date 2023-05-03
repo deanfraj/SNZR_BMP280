@@ -20,7 +20,7 @@
     )
     (symbol "Konektor_1_1"
       (pin input line (at -5.08 6.35 0) (length 2.54)
-        (name "VCC" (effects (font (size 1.27 1.27))))
+        (name "3.3V" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
       (pin input line (at -5.08 3.81 0) (length 2.54)
